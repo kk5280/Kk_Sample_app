@@ -1,0 +1,637 @@
+INFO:2024-11-29 00:14:10,694:MainThread:Dhan.py  started system
+INFO:2024-11-29 00:14:10,694:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 00:16:05,370:MainThread:Dhan.py  started system
+INFO:2024-11-29 00:16:05,370:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 00:17:06,603:MainThread:Dhan.py  started system
+INFO:2024-11-29 00:17:06,603:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 00:18:43,494:MainThread:Dhan.py  started system
+INFO:2024-11-29 00:18:43,494:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 00:20:00,769:MainThread:Dhan.py  started system
+INFO:2024-11-29 00:20:00,769:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 00:21:54,098:MainThread:Dhan.py  started system
+INFO:2024-11-29 00:21:54,098:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 00:22:17,331:MainThread:Dhan.py  started system
+INFO:2024-11-29 00:22:17,331:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 00:23:31,582:MainThread:Dhan.py  started system
+INFO:2024-11-29 00:23:31,582:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 00:24:11,648:MainThread:Dhan.py  started system
+INFO:2024-11-29 00:24:11,648:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 00:28:54,457:MainThread:Dhan.py  started system
+INFO:2024-11-29 00:28:54,457:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-29 00:28:59,152:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:29:00,966:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:29:02,854:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:29:03,978:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 286, in get_historical_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+INFO:2024-11-29 00:31:25,528:MainThread:Dhan.py  started system
+INFO:2024-11-29 00:31:25,528:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-29 00:31:32,133:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:31:37,076:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:31:38,929:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:31:42,807:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:31:44,673:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:31:48,526:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:31:50,424:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:31:54,266:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:31:56,133:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:31:59,977:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:32:01,876:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:32:05,747:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:32:07,632:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:32:11,509:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:32:13,407:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:32:17,283:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:32:19,114:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:32:23,028:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:32:24,898:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:32:28,779:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:32:30,647:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:32:34,506:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:32:36,408:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:32:40,285:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:32:46,204:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:32:48,162:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+INFO:2024-11-29 00:33:14,082:MainThread:Dhan.py  started system
+INFO:2024-11-29 00:33:14,082:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-29 00:33:18,666:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:33:23,441:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:33:28,313:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:33:33,100:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:33:37,857:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:33:42,653:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:33:47,442:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:33:52,245:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:33:57,044:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:34:01,851:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:34:06,645:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:34:11,518:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:34:16,329:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:34:21,105:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:34:25,909:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+ERROR:2024-11-29 00:34:30,686:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+INFO:2024-11-29 00:34:40,610:MainThread:Dhan.py  started system
+INFO:2024-11-29 00:34:40,610:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-29 00:34:45,829:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+INFO:2024-11-29 00:37:00,491:MainThread:Dhan.py  started system
+INFO:2024-11-29 00:37:00,491:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-29 00:37:06,261:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+INFO:2024-11-29 00:37:46,643:MainThread:Dhan.py  started system
+INFO:2024-11-29 00:37:46,643:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-29 00:37:51,550:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+INFO:2024-11-29 00:38:29,465:MainThread:Dhan.py  started system
+INFO:2024-11-29 00:38:29,465:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 00:38:57,617:MainThread:Dhan.py  started system
+INFO:2024-11-29 00:38:57,632:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 00:39:50,717:MainThread:Dhan.py  started system
+INFO:2024-11-29 00:39:50,719:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 00:41:07,233:MainThread:Dhan.py  started system
+INFO:2024-11-29 00:41:07,233:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 00:41:58,753:MainThread:Dhan.py  started system
+INFO:2024-11-29 00:41:58,753:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-29 00:42:18,671:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 286, in get_historical_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+INFO:2024-11-29 00:43:30,631:MainThread:Dhan.py  started system
+INFO:2024-11-29 00:43:30,631:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-29 00:43:46,585:MainThread:Exception for instrument name NIFTY 50 INDEX as single positional indexer is out-of-bounds
+ERROR:2024-11-29 00:43:47,363:MainThread:Exception in Getting OHLC data as single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 260, in get_historical_data
+    security_id 	= instrument_df[((instrument_df['SEM_TRADING_SYMBOL']==tradingsymbol)|(instrument_df['SEM_CUSTOM_SYMBOL']==tradingsymbol))&(instrument_df['SEM_EXM_EXCH_ID']==instrument_exchange[exchange])].iloc[-1]['SEM_SMST_SECURITY_ID']
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1103, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1656, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1589, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+INFO:2024-11-29 08:57:07,994:MainThread:Dhan.py  started system
+INFO:2024-11-29 08:57:07,995:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 09:03:29,649:MainThread:Dhan.py  started system
+INFO:2024-11-29 09:03:29,649:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-29 09:03:33,374:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+INFO:2024-11-29 09:04:33,859:MainThread:Dhan.py  started system
+INFO:2024-11-29 09:04:33,859:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 09:09:16,407:MainThread:Dhan.py  started system
+INFO:2024-11-29 09:09:16,407:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 09:15:10,339:MainThread:Dhan.py  started system
+INFO:2024-11-29 09:15:10,339:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 09:15:57,248:MainThread:Dhan.py  started system
+INFO:2024-11-29 09:15:57,248:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 09:21:03,164:MainThread:Dhan.py  started system
+INFO:2024-11-29 09:21:03,164:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 09:21:45,238:MainThread:Dhan.py  started system
+INFO:2024-11-29 09:21:45,252:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 09:22:31,111:MainThread:Dhan.py  started system
+INFO:2024-11-29 09:22:31,111:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-29 09:22:34,659:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 433, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+INFO:2024-11-29 09:29:34,128:MainThread:Dhan.py  started system
+INFO:2024-11-29 09:29:34,128:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 09:38:02,671:MainThread:Dhan.py  started system
+INFO:2024-11-29 09:38:02,671:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 09:40:26,736:MainThread:Dhan.py  started system
+INFO:2024-11-29 09:40:26,736:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 09:42:01,970:MainThread:Dhan.py  started system
+INFO:2024-11-29 09:42:01,970:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 09:44:53,192:MainThread:Dhan.py  started system
+INFO:2024-11-29 09:44:53,192:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 09:47:28,456:MainThread:Dhan.py  started system
+INFO:2024-11-29 09:47:28,456:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 09:52:33,801:MainThread:Dhan.py  started system
+INFO:2024-11-29 09:52:33,801:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 09:52:57,189:MainThread:Dhan.py  started system
+INFO:2024-11-29 09:52:57,189:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 09:53:41,295:MainThread:Dhan.py  started system
+INFO:2024-11-29 09:53:41,295:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 09:54:36,610:MainThread:Dhan.py  started system
+INFO:2024-11-29 09:54:36,610:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 09:55:08,111:MainThread:Dhan.py  started system
+INFO:2024-11-29 09:55:08,111:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 09:56:02,266:MainThread:Dhan.py  started system
+INFO:2024-11-29 09:56:02,266:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 09:57:43,237:MainThread:Dhan.py  started system
+INFO:2024-11-29 09:57:43,237:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 10:00:19,149:MainThread:Dhan.py  started system
+INFO:2024-11-29 10:00:19,149:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 10:01:07,656:MainThread:Dhan.py  started system
+INFO:2024-11-29 10:01:07,656:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 10:02:40,576:MainThread:Dhan.py  started system
+INFO:2024-11-29 10:02:40,576:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 10:03:20,118:MainThread:Dhan.py  started system
+INFO:2024-11-29 10:03:20,118:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 10:06:12,866:MainThread:Dhan.py  started system
+INFO:2024-11-29 10:06:12,866:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 10:07:03,085:MainThread:Dhan.py  started system
+INFO:2024-11-29 10:07:03,085:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 10:09:08,265:MainThread:Dhan.py  started system
+INFO:2024-11-29 10:09:08,265:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 10:11:32,884:MainThread:Dhan.py  started system
+INFO:2024-11-29 10:11:32,885:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 10:13:03,933:MainThread:Dhan.py  started system
+INFO:2024-11-29 10:13:03,933:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 10:13:57,724:MainThread:Dhan.py  started system
+INFO:2024-11-29 10:13:57,724:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 10:15:46,597:MainThread:Dhan.py  started system
+INFO:2024-11-29 10:15:46,597:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 10:18:14,984:MainThread:Dhan.py  started system
+INFO:2024-11-29 10:18:14,984:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 10:19:27,190:MainThread:Dhan.py  started system
+INFO:2024-11-29 10:19:27,190:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 10:23:33,567:MainThread:Dhan.py  started system
+INFO:2024-11-29 10:23:33,567:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 10:24:09,561:MainThread:Dhan.py  started system
+INFO:2024-11-29 10:24:09,561:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 10:25:05,515:MainThread:Dhan.py  started system
+INFO:2024-11-29 10:25:05,517:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 10:28:23,064:MainThread:Dhan.py  started system
+INFO:2024-11-29 10:28:23,064:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 10:34:39,840:MainThread:Dhan.py  started system
+INFO:2024-11-29 10:34:39,840:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 10:36:12,848:MainThread:Dhan.py  started system
+INFO:2024-11-29 10:36:12,848:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 10:37:47,984:MainThread:Dhan.py  started system
+INFO:2024-11-29 10:37:47,984:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 10:38:40,245:MainThread:Dhan.py  started system
+INFO:2024-11-29 10:38:40,245:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 10:39:24,003:MainThread:Dhan.py  started system
+INFO:2024-11-29 10:39:24,003:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 10:40:39,275:MainThread:Dhan.py  started system
+INFO:2024-11-29 10:40:39,275:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 10:42:01,585:MainThread:Dhan.py  started system
+INFO:2024-11-29 10:42:01,585:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 10:43:19,610:MainThread:Dhan.py  started system
+INFO:2024-11-29 10:43:19,610:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 10:44:29,017:MainThread:Dhan.py  started system
+INFO:2024-11-29 10:44:29,017:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 10:48:49,770:MainThread:Dhan.py  started system
+INFO:2024-11-29 10:48:49,770:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 10:50:55,795:MainThread:Dhan.py  started system
+INFO:2024-11-29 10:50:55,795:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 10:54:00,128:MainThread:Dhan.py  started system
+INFO:2024-11-29 10:54:00,128:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 10:57:25,594:MainThread:Dhan.py  started system
+INFO:2024-11-29 10:57:25,594:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 11:03:55,537:MainThread:Dhan.py  started system
+INFO:2024-11-29 11:03:55,548:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 11:06:27,083:MainThread:Dhan.py  started system
+INFO:2024-11-29 11:06:27,083:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 11:30:21,463:MainThread:Dhan.py  started system
+INFO:2024-11-29 11:30:21,463:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-29 11:30:25,132:MainThread:Exception in Getting OHLC data as '1'
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 329, in get_intraday_data
+    df = self.resample_timeframe(df,available_frames[timeframe])
+KeyError: '1'
+INFO:2024-11-29 11:31:34,828:MainThread:Dhan.py  started system
+INFO:2024-11-29 11:31:34,828:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-29 11:31:37,883:MainThread:Exception in Getting OHLC data as '1'
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 329, in get_intraday_data
+    df = self.resample_timeframe(df,available_frames[timeframe])
+KeyError: '1'
+INFO:2024-11-29 11:32:50,529:MainThread:Dhan.py  started system
+INFO:2024-11-29 11:32:50,529:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-29 11:32:53,649:MainThread:Exception in Getting OHLC data as '1'
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 329, in get_intraday_data
+    df = self.resample_timeframe(df,available_frames[timeframe])
+KeyError: '1'
+INFO:2024-11-29 11:34:25,586:MainThread:Dhan.py  started system
+INFO:2024-11-29 11:34:25,586:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-29 11:34:28,752:MainThread:Exception in Getting OHLC data as '2'
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 329, in get_intraday_data
+    df = self.resample_timeframe(df,available_frames[timeframe])
+KeyError: '2'
+INFO:2024-11-29 11:34:58,523:MainThread:Dhan.py  started system
+INFO:2024-11-29 11:34:58,523:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-29 11:35:01,420:MainThread:Exception in Getting OHLC data as '2'
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 329, in get_intraday_data
+    df = self.resample_timeframe(df,available_frames[timeframe])
+KeyError: '2'
+INFO:2024-11-29 11:36:21,811:MainThread:Dhan.py  started system
+INFO:2024-11-29 11:36:21,811:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 11:38:01,541:MainThread:Dhan.py  started system
+INFO:2024-11-29 11:38:01,541:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 11:39:30,760:MainThread:Dhan.py  started system
+INFO:2024-11-29 11:39:30,760:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 11:44:31,575:MainThread:Dhan.py  started system
+INFO:2024-11-29 11:44:31,575:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 11:46:41,989:MainThread:Dhan.py  started system
+INFO:2024-11-29 11:46:41,989:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 11:52:00,737:MainThread:Dhan.py  started system
+INFO:2024-11-29 11:52:00,738:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 11:53:59,232:MainThread:Dhan.py  started system
+INFO:2024-11-29 11:53:59,232:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 11:54:56,146:MainThread:Dhan.py  started system
+INFO:2024-11-29 11:54:56,146:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 12:00:04,447:MainThread:Dhan.py  started system
+INFO:2024-11-29 12:00:04,451:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 12:07:37,164:MainThread:Dhan.py  started system
+INFO:2024-11-29 12:07:37,164:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 12:10:51,726:MainThread:Dhan.py  started system
+INFO:2024-11-29 12:10:51,726:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 12:12:05,929:MainThread:Dhan.py  started system
+INFO:2024-11-29 12:12:05,929:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 12:14:06,060:MainThread:Dhan.py  started system
+INFO:2024-11-29 12:14:06,060:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 12:19:05,003:MainThread:Dhan.py  started system
+INFO:2024-11-29 12:19:05,003:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 12:20:01,379:MainThread:Dhan.py  started system
+INFO:2024-11-29 12:20:01,379:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 12:24:00,822:MainThread:Dhan.py  started system
+INFO:2024-11-29 12:24:00,822:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 12:27:03,646:MainThread:Dhan.py  started system
+INFO:2024-11-29 12:27:03,646:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 12:28:10,874:MainThread:Dhan.py  started system
+INFO:2024-11-29 12:28:10,874:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 12:30:45,249:MainThread:Dhan.py  started system
+INFO:2024-11-29 12:30:45,249:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 12:38:19,574:MainThread:Dhan.py  started system
+INFO:2024-11-29 12:38:19,574:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 12:38:54,588:MainThread:Dhan.py  started system
+INFO:2024-11-29 12:38:54,588:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 12:55:32,563:MainThread:Dhan.py  started system
+INFO:2024-11-29 12:55:32,563:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-29 12:55:35,516:MainThread:Exception in Getting OHLC data as interval value must be ['1','5','15','25','60','DAY']
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 277, in get_historical_data
+    raise Exception("interval value must be ['1','5','15','25','60','DAY']")
+Exception: interval value must be ['1','5','15','25','60','DAY']
+INFO:2024-11-29 12:56:09,478:MainThread:Dhan.py  started system
+INFO:2024-11-29 12:56:09,493:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-29 12:56:12,405:MainThread:Exception in Getting OHLC data as interval value must be ['1','5','15','25','60','DAY']
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 277, in get_historical_data
+    raise Exception("interval value must be ['1','5','15','25','60','DAY']")
+Exception: interval value must be ['1','5','15','25','60','DAY']
+INFO:2024-11-29 12:56:38,140:MainThread:Dhan.py  started system
+INFO:2024-11-29 12:56:38,140:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 12:59:24,646:MainThread:Dhan.py  started system
+INFO:2024-11-29 12:59:24,646:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 13:00:10,066:MainThread:Dhan.py  started system
+INFO:2024-11-29 13:00:10,066:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 13:00:53,908:MainThread:Dhan.py  started system
+INFO:2024-11-29 13:00:53,908:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 13:08:31,429:MainThread:Dhan.py  started system
+INFO:2024-11-29 13:08:31,429:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 13:12:23,140:MainThread:Dhan.py  started system
+INFO:2024-11-29 13:12:23,140:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 13:20:58,317:MainThread:Dhan.py  started system
+INFO:2024-11-29 13:20:58,317:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-29 13:21:01,375:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': {'error_code': 'DH-905', 'error_type': 'Input_Exception', 'error_message': 'Missing required fields, bad values for parameters etc.'}, 'data': {'errorType': 'Input_Exception', 'errorCode': 'DH-905', 'errorMessage': 'Missing required fields, bad values for parameters etc.'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 345, in get_predefined_historical_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': {'error_code': 'DH-905', 'error_type': 'Input_Exception', 'error_message': 'Missing required fields, bad values for parameters etc.'}, 'data': {'errorType': 'Input_Exception', 'errorCode': 'DH-905', 'errorMessage': 'Missing required fields, bad values for parameters etc.'}}
+INFO:2024-11-29 13:25:03,385:MainThread:Dhan.py  started system
+INFO:2024-11-29 13:25:03,385:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-29 13:25:06,442:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': {'error_code': 'DH-905', 'error_type': 'Input_Exception', 'error_message': 'Missing required fields, bad values for parameters etc.'}, 'data': {'errorType': 'Input_Exception', 'errorCode': 'DH-905', 'errorMessage': 'Missing required fields, bad values for parameters etc.'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 345, in get_predefined_historical_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': {'error_code': 'DH-905', 'error_type': 'Input_Exception', 'error_message': 'Missing required fields, bad values for parameters etc.'}, 'data': {'errorType': 'Input_Exception', 'errorCode': 'DH-905', 'errorMessage': 'Missing required fields, bad values for parameters etc.'}}
+INFO:2024-11-29 13:26:34,795:MainThread:Dhan.py  started system
+INFO:2024-11-29 13:26:34,795:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-29 13:26:38,206:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': {'error_code': 'DH-905', 'error_type': 'Input_Exception', 'error_message': 'Missing required fields, bad values for parameters etc.'}, 'data': {'errorType': 'Input_Exception', 'errorCode': 'DH-905', 'errorMessage': 'Missing required fields, bad values for parameters etc.'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 345, in get_predefined_historical_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': {'error_code': 'DH-905', 'error_type': 'Input_Exception', 'error_message': 'Missing required fields, bad values for parameters etc.'}, 'data': {'errorType': 'Input_Exception', 'errorCode': 'DH-905', 'errorMessage': 'Missing required fields, bad values for parameters etc.'}}
+INFO:2024-11-29 13:27:05,055:MainThread:Dhan.py  started system
+INFO:2024-11-29 13:27:05,055:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-29 13:27:08,245:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': {'error_code': 'DH-905', 'error_type': 'Input_Exception', 'error_message': 'Missing required fields, bad values for parameters etc.'}, 'data': {'errorType': 'Input_Exception', 'errorCode': 'DH-905', 'errorMessage': 'Missing required fields, bad values for parameters etc.'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 345, in get_predefined_historical_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': {'error_code': 'DH-905', 'error_type': 'Input_Exception', 'error_message': 'Missing required fields, bad values for parameters etc.'}, 'data': {'errorType': 'Input_Exception', 'errorCode': 'DH-905', 'errorMessage': 'Missing required fields, bad values for parameters etc.'}}
+INFO:2024-11-29 13:27:52,818:MainThread:Dhan.py  started system
+INFO:2024-11-29 13:27:52,818:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-29 13:27:56,813:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': {'error_code': 'DH-905', 'error_type': 'Input_Exception', 'error_message': 'Missing required fields, bad values for parameters etc.'}, 'data': {'errorType': 'Input_Exception', 'errorCode': 'DH-905', 'errorMessage': 'Missing required fields, bad values for parameters etc.'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 345, in get_predefined_historical_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': {'error_code': 'DH-905', 'error_type': 'Input_Exception', 'error_message': 'Missing required fields, bad values for parameters etc.'}, 'data': {'errorType': 'Input_Exception', 'errorCode': 'DH-905', 'errorMessage': 'Missing required fields, bad values for parameters etc.'}}
+INFO:2024-11-29 13:28:58,878:MainThread:Dhan.py  started system
+INFO:2024-11-29 13:28:58,878:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-29 13:29:02,119:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': {'error_code': 'DH-905', 'error_type': 'Input_Exception', 'error_message': 'Missing required fields, bad values for parameters etc.'}, 'data': {'errorType': 'Input_Exception', 'errorCode': 'DH-905', 'errorMessage': 'Missing required fields, bad values for parameters etc.'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 345, in get_predefined_historical_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': {'error_code': 'DH-905', 'error_type': 'Input_Exception', 'error_message': 'Missing required fields, bad values for parameters etc.'}, 'data': {'errorType': 'Input_Exception', 'errorCode': 'DH-905', 'errorMessage': 'Missing required fields, bad values for parameters etc.'}}
+INFO:2024-11-29 13:30:22,846:MainThread:Dhan.py  started system
+INFO:2024-11-29 13:30:22,846:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-29 13:30:26,394:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': {'error_code': 'DH-905', 'error_type': 'Input_Exception', 'error_message': 'Missing required fields, bad values for parameters etc.'}, 'data': {'errorType': 'Input_Exception', 'errorCode': 'DH-905', 'errorMessage': 'Missing required fields, bad values for parameters etc.'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 345, in get_predefined_historical_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': {'error_code': 'DH-905', 'error_type': 'Input_Exception', 'error_message': 'Missing required fields, bad values for parameters etc.'}, 'data': {'errorType': 'Input_Exception', 'errorCode': 'DH-905', 'errorMessage': 'Missing required fields, bad values for parameters etc.'}}
+INFO:2024-11-29 13:31:30,711:MainThread:Dhan.py  started system
+INFO:2024-11-29 13:31:30,711:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 13:32:36,607:MainThread:Dhan.py  started system
+INFO:2024-11-29 13:32:36,607:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 13:37:16,364:MainThread:Dhan.py  started system
+INFO:2024-11-29 13:37:16,364:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 13:38:14,529:MainThread:Dhan.py  started system
+INFO:2024-11-29 13:38:14,529:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 13:45:54,538:MainThread:Dhan.py  started system
+INFO:2024-11-29 13:45:54,538:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 13:47:37,388:MainThread:Dhan.py  started system
+INFO:2024-11-29 13:47:37,388:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 13:50:18,623:MainThread:Dhan.py  started system
+INFO:2024-11-29 13:50:18,623:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 14:01:34,286:MainThread:Dhan.py  started system
+INFO:2024-11-29 14:01:34,286:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 14:03:21,896:MainThread:Dhan.py  started system
+INFO:2024-11-29 14:03:21,896:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 15:02:33,704:MainThread:Dhan.py  started system
+INFO:2024-11-29 15:02:33,704:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 15:07:44,132:MainThread:Dhan.py  started system
+INFO:2024-11-29 15:07:44,132:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 15:36:32,228:MainThread:Dhan.py  started system
+INFO:2024-11-29 15:36:32,228:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 15:36:54,169:MainThread:Dhan.py  started system
+INFO:2024-11-29 15:36:54,184:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 15:42:11,571:MainThread:Dhan.py  started system
+INFO:2024-11-29 15:42:11,571:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 15:42:12,649:MainThread:Algo_1  started
+INFO:2024-11-29 15:46:00,903:MainThread:Dhan.py  started system
+INFO:2024-11-29 15:46:00,903:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 15:46:47,446:MainThread:Dhan.py  started system
+INFO:2024-11-29 15:46:47,446:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 15:47:31,149:MainThread:Dhan.py  started system
+INFO:2024-11-29 15:47:31,149:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 15:48:20,278:MainThread:Dhan.py  started system
+INFO:2024-11-29 15:48:20,278:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 15:48:21,344:MainThread:Algo 1  started
+INFO:2024-11-29 15:50:42,260:MainThread:Dhan.py  started system
+INFO:2024-11-29 15:50:42,260:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 15:50:43,758:MainThread:Algo 1  started
+INFO:2024-11-29 15:56:50,030:MainThread:Dhan.py  started system
+INFO:2024-11-29 15:56:50,030:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 15:57:21,093:MainThread:Dhan.py  started system
+INFO:2024-11-29 15:57:21,093:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 15:57:22,221:MainThread:KK system started
+INFO:2024-11-29 15:57:54,026:MainThread:Dhan.py  started system
+INFO:2024-11-29 15:57:54,026:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 15:57:55,105:MainThread:KK system started
+INFO:2024-11-29 15:58:49,359:MainThread:Dhan.py  started system
+INFO:2024-11-29 15:58:49,359:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 15:59:06,893:MainThread:Dhan.py  started system
+INFO:2024-11-29 15:59:06,893:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 15:59:08,049:MainThread:KK system started
+INFO:2024-11-29 16:00:30,250:MainThread:Dhan.py  started system
+INFO:2024-11-29 16:00:30,250:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 16:00:31,221:MainThread:KK system started
+INFO:2024-11-29 16:01:13,478:MainThread:Dhan.py  started system
+INFO:2024-11-29 16:01:13,478:MainThread:STARTED THE PROGRAM
+INFO:2024-11-29 16:01:14,557:MainThread:KK system started
+INFO:2024-11-29 16:01:14,557:MainThread:STARTED ALGO 1
+INFO:2024-11-29 21:42:24,012:MainThread:Dhan.py  started system
+INFO:2024-11-29 21:42:24,012:MainThread:STARTED THE PROGRAM

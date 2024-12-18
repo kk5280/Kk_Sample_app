@@ -1,0 +1,402 @@
+INFO:2024-11-14 13:05:00,323:MainThread:Dhan.py  started system
+INFO:2024-11-14 13:05:00,323:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-14 13:05:12,143:MainThread:Exception in Getting OHLC data as 'dhanhq' object has no attribute 'NSE_FNO'
+Traceback (most recent call last):
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+AttributeError: 'Pdb' object has no attribute 'do_daily_data'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull.py", line 210, in get_historical_data
+    script_exchange = {"NSE":self.Dhan.NSE, "NFO":self.Dhan.NSE_FNO, "BFO":self.Dhan.BSE_FNO, "CUR": self.Dhan.CUR, "BSE":self.Dhan.BSE, "MCX":self.Dhan.MCX}
+AttributeError: 'dhanhq' object has no attribute 'NSE_FNO'
+INFO:2024-11-14 13:05:21,970:MainThread:Dhan.py  started system
+INFO:2024-11-14 13:05:21,970:MainThread:STARTED THE PROGRAM
+INFO:2024-11-14 13:06:27,194:MainThread:Dhan.py  started system
+INFO:2024-11-14 13:06:27,194:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-14 13:06:27,984:MainThread:Error at getting start date as If using all scalar values, you must pass an index
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull_V2.py", line 218, in get_start_date
+    df = pd.DataFrame(ohlc['data'])
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\frame.py", line 636, in __init__
+    mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 502, in dict_to_mgr
+    return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 120, in arrays_to_mgr
+    index = _extract_index(arrays)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 664, in _extract_index
+    raise ValueError("If using all scalar values, you must pass an index")
+ValueError: If using all scalar values, you must pass an index
+ERROR:2024-11-14 13:06:31,954:MainThread:Exception in Getting OHLC data as interval value must be ['1','5','15','25','60','DAY']
+Traceback (most recent call last):
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+AttributeError: 'Pdb' object has no attribute 'do_daily_data'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull_V2.py", line 253, in get_historical_data
+    raise Exception("interval value must be ['1','5','15','25','60','DAY']")
+Exception: interval value must be ['1','5','15','25','60','DAY']
+ERROR:2024-11-14 13:07:16,284:MainThread:Exception in Getting OHLC data as 'INDEX'
+Traceback (most recent call last):
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+AttributeError: 'Pdb' object has no attribute 'do_daily_data'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull_V2.py", line 244, in get_historical_data
+    security_id = self.instrument_df[((self.instrument_df['SEM_TRADING_SYMBOL']==tradingsymbol)|(self.instrument_df['SEM_CUSTOM_SYMBOL']==tradingsymbol))&(self.instrument_df['SEM_EXM_EXCH_ID']==instrument_exchange[exchange])].iloc[-1]['SEM_SMST_SECURITY_ID']
+KeyError: 'INDEX'
+INFO:2024-11-14 13:07:24,994:MainThread:Dhan.py  started system
+INFO:2024-11-14 13:07:24,994:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-14 13:07:25,820:MainThread:Error at getting start date as If using all scalar values, you must pass an index
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull_V2.py", line 218, in get_start_date
+    df = pd.DataFrame(ohlc['data'])
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\frame.py", line 636, in __init__
+    mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 502, in dict_to_mgr
+    return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 120, in arrays_to_mgr
+    index = _extract_index(arrays)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 664, in _extract_index
+    raise ValueError("If using all scalar values, you must pass an index")
+ValueError: If using all scalar values, you must pass an index
+ERROR:2024-11-14 13:07:34,804:MainThread:Exception in Getting OHLC data as 'INDEX'
+Traceback (most recent call last):
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+AttributeError: 'Pdb' object has no attribute 'do_tsl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull_V2.py", line 244, in get_historical_data
+    security_id = self.instrument_df[((self.instrument_df['SEM_TRADING_SYMBOL']==tradingsymbol)|(self.instrument_df['SEM_CUSTOM_SYMBOL']==tradingsymbol))&(self.instrument_df['SEM_EXM_EXCH_ID']==instrument_exchange[exchange])].iloc[-1]['SEM_SMST_SECURITY_ID']
+KeyError: 'INDEX'
+ERROR:2024-11-14 13:07:45,484:MainThread:Exception in Getting OHLC data as If using all scalar values, you must pass an index
+Traceback (most recent call last):
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+AttributeError: 'Pdb' object has no attribute 'do_tsl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull_V2.py", line 260, in get_historical_data
+    df = pd.DataFrame(ohlc['data'])
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\frame.py", line 636, in __init__
+    mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 502, in dict_to_mgr
+    return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 120, in arrays_to_mgr
+    index = _extract_index(arrays)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 664, in _extract_index
+    raise ValueError("If using all scalar values, you must pass an index")
+ValueError: If using all scalar values, you must pass an index
+INFO:2024-11-14 13:09:20,906:MainThread:Dhan.py  started system
+INFO:2024-11-14 13:09:20,906:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-14 13:09:21,854:MainThread:Error at getting start date as If using all scalar values, you must pass an index
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull_V2.py", line 218, in get_start_date
+    df = pd.DataFrame(ohlc['data'])
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\frame.py", line 636, in __init__
+    mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 502, in dict_to_mgr
+    return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 120, in arrays_to_mgr
+    index = _extract_index(arrays)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 664, in _extract_index
+    raise ValueError("If using all scalar values, you must pass an index")
+ValueError: If using all scalar values, you must pass an index
+ERROR:2024-11-14 13:11:41,456:MainThread:Exception in Getting OHLC data as If using all scalar values, you must pass an index
+Traceback (most recent call last):
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+AttributeError: 'Pdb' object has no attribute 'do_tsl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull_V2.py", line 260, in get_historical_data
+    df = pd.DataFrame(ohlc['data'])
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\frame.py", line 636, in __init__
+    mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 502, in dict_to_mgr
+    return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 120, in arrays_to_mgr
+    index = _extract_index(arrays)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 664, in _extract_index
+    raise ValueError("If using all scalar values, you must pass an index")
+ValueError: If using all scalar values, you must pass an index
+ERROR:2024-11-14 13:12:08,831:MainThread:Exception in Getting OHLC data as If using all scalar values, you must pass an index
+Traceback (most recent call last):
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+AttributeError: 'Pdb' object has no attribute 'do_tsl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull_V2.py", line 260, in get_historical_data
+    df = pd.DataFrame(ohlc['data'])
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\frame.py", line 636, in __init__
+    mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 502, in dict_to_mgr
+    return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 120, in arrays_to_mgr
+    index = _extract_index(arrays)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 664, in _extract_index
+    raise ValueError("If using all scalar values, you must pass an index")
+ValueError: If using all scalar values, you must pass an index
+ERROR:2024-11-14 13:12:15,664:MainThread:Exception in Getting OHLC data as If using all scalar values, you must pass an index
+Traceback (most recent call last):
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+AttributeError: 'Pdb' object has no attribute 'do_tsl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull_V2.py", line 260, in get_historical_data
+    df = pd.DataFrame(ohlc['data'])
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\frame.py", line 636, in __init__
+    mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 502, in dict_to_mgr
+    return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 120, in arrays_to_mgr
+    index = _extract_index(arrays)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 664, in _extract_index
+    raise ValueError("If using all scalar values, you must pass an index")
+ValueError: If using all scalar values, you must pass an index
+ERROR:2024-11-14 13:12:39,269:MainThread:Exception in Getting OHLC data as If using all scalar values, you must pass an index
+Traceback (most recent call last):
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+AttributeError: 'Pdb' object has no attribute 'do_tsl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull_V2.py", line 260, in get_historical_data
+    df = pd.DataFrame(ohlc['data'])
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\frame.py", line 636, in __init__
+    mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 502, in dict_to_mgr
+    return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 120, in arrays_to_mgr
+    index = _extract_index(arrays)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 664, in _extract_index
+    raise ValueError("If using all scalar values, you must pass an index")
+ValueError: If using all scalar values, you must pass an index
+INFO:2024-11-14 13:13:36,024:MainThread:Dhan.py  started system
+INFO:2024-11-14 13:13:36,024:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-14 13:13:37,094:MainThread:Error at getting start date as If using all scalar values, you must pass an index
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull_V2.py", line 218, in get_start_date
+    df = pd.DataFrame(ohlc['data'])
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\frame.py", line 636, in __init__
+    mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 502, in dict_to_mgr
+    return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 120, in arrays_to_mgr
+    index = _extract_index(arrays)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 664, in _extract_index
+    raise ValueError("If using all scalar values, you must pass an index")
+ValueError: If using all scalar values, you must pass an index
+ERROR:2024-11-14 13:13:41,415:MainThread:Exception for instrument name NIFTY 07 NOV 24000 CALL as single positional indexer is out-of-bounds
+ERROR:2024-11-14 13:13:41,434:MainThread:Exception for instrument name NIFTY 07 NOV 24000 PUT as single positional indexer is out-of-bounds
+INFO:2024-11-14 13:14:26,529:MainThread:Dhan.py  started system
+INFO:2024-11-14 13:14:26,529:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-14 13:14:27,311:MainThread:Error at getting start date as If using all scalar values, you must pass an index
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull_V2.py", line 218, in get_start_date
+    df = pd.DataFrame(ohlc['data'])
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\frame.py", line 636, in __init__
+    mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 502, in dict_to_mgr
+    return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 120, in arrays_to_mgr
+    index = _extract_index(arrays)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 664, in _extract_index
+    raise ValueError("If using all scalar values, you must pass an index")
+ValueError: If using all scalar values, you must pass an index
+ERROR:2024-11-14 13:14:48,104:MainThread:Exception in Getting OHLC data as If using all scalar values, you must pass an index
+Traceback (most recent call last):
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+AttributeError: 'Pdb' object has no attribute 'do_tsl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull_V2.py", line 260, in get_historical_data
+    df = pd.DataFrame(ohlc['data'])
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\frame.py", line 636, in __init__
+    mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 502, in dict_to_mgr
+    return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 120, in arrays_to_mgr
+    index = _extract_index(arrays)
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 664, in _extract_index
+    raise ValueError("If using all scalar values, you must pass an index")
+ValueError: If using all scalar values, you must pass an index
+INFO:2024-11-14 13:18:34,264:MainThread:Dhan.py  started system
+INFO:2024-11-14 13:18:34,264:MainThread:STARTED THE PROGRAM
+INFO:2024-11-14 13:19:44,428:MainThread:Dhan.py  started system
+INFO:2024-11-14 13:19:44,428:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-14 13:20:43,544:MainThread:Exception in Getting OHLC data as interval value must be ['1','5','15','25','60','DAY']
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull_V2.py", line 253, in get_historical_data
+    raise Exception("interval value must be ['1','5','15','25','60','DAY']")
+Exception: interval value must be ['1','5','15','25','60','DAY']
+INFO:2024-11-14 13:20:54,867:MainThread:Dhan.py  started system
+INFO:2024-11-14 13:20:54,874:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-14 13:21:54,044:MainThread:Exception in Getting OHLC data as interval value must be ['1','5','15','25','60','DAY']
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull_V2.py", line 253, in get_historical_data
+    raise Exception("interval value must be ['1','5','15','25','60','DAY']")
+Exception: interval value must be ['1','5','15','25','60','DAY']
+INFO:2024-11-14 13:22:30,034:MainThread:Dhan.py  started system
+INFO:2024-11-14 13:22:30,034:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-14 13:22:37,391:MainThread:Exception in Getting OHLC data as interval value must be ['1','5','15','25','60','DAY']
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull_V2.py", line 253, in get_historical_data
+    raise Exception("interval value must be ['1','5','15','25','60','DAY']")
+Exception: interval value must be ['1','5','15','25','60','DAY']
+INFO:2024-11-14 13:24:15,493:MainThread:Dhan.py  started system
+INFO:2024-11-14 13:24:15,493:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-14 13:24:21,231:MainThread:Exception in Getting OHLC data as interval value must be ['1','5','15','25','60','DAY']
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull_V2.py", line 253, in get_historical_data
+    raise Exception("interval value must be ['1','5','15','25','60','DAY']")
+Exception: interval value must be ['1','5','15','25','60','DAY']
+INFO:2024-11-14 13:25:06,534:MainThread:Dhan.py  started system
+INFO:2024-11-14 13:25:06,534:MainThread:STARTED THE PROGRAM
+INFO:2024-11-14 13:34:16,424:MainThread:Dhan.py  started system
+INFO:2024-11-14 13:34:16,424:MainThread:STARTED THE PROGRAM
+INFO:2024-11-14 13:37:01,485:MainThread:Dhan.py  started system
+INFO:2024-11-14 13:37:01,485:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-14 13:37:03,694:MainThread:Exception in getting LTP as 'Tradehull' object has no attribute 'sheet'
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull.py", line 318, in get_ltp
+    df = self.sheet.range('A1').expand().options(pd.DataFrame, header=1, index=False).value
+AttributeError: 'Tradehull' object has no attribute 'sheet'
+ERROR:2024-11-14 13:37:03,896:MainThread:Exception in Getting OHLC data as 'dhanhq' object has no attribute 'NSE_FNO'
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull.py", line 244, in get_intraday_data
+    script_exchange = {"NSE":self.Dhan.NSE, "NFO":self.Dhan.NSE_FNO, "BFO":self.Dhan.BSE_FNO, "CUR": self.Dhan.CUR, "BSE":self.Dhan.BSE, "MCX":self.Dhan.MCX}
+AttributeError: 'dhanhq' object has no attribute 'NSE_FNO'
+INFO:2024-11-14 13:39:13,949:MainThread:Dhan.py  started system
+INFO:2024-11-14 13:39:13,949:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-14 13:39:15,804:MainThread:Exception in getting LTP as 'Tradehull' object has no attribute 'sheet'
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull.py", line 318, in get_ltp
+    df = self.sheet.range('A1').expand().options(pd.DataFrame, header=1, index=False).value
+AttributeError: 'Tradehull' object has no attribute 'sheet'
+ERROR:2024-11-14 13:39:23,094:MainThread:Exception in Getting OHLC data as 'dhanhq' object has no attribute 'NSE_FNO'
+Traceback (most recent call last):
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+AttributeError: 'Pdb' object has no attribute 'do_tsl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull.py", line 244, in get_intraday_data
+    script_exchange = {"NSE":self.Dhan.NSE, "NFO":self.Dhan.NSE_FNO, "BFO":self.Dhan.BSE_FNO, "CUR": self.Dhan.CUR, "BSE":self.Dhan.BSE, "MCX":self.Dhan.MCX}
+AttributeError: 'dhanhq' object has no attribute 'NSE_FNO'
+INFO:2024-11-14 13:40:02,624:MainThread:Dhan.py  started system
+INFO:2024-11-14 13:40:02,624:MainThread:STARTED THE PROGRAM
+INFO:2024-11-14 13:44:15,754:MainThread:Dhan.py  started system
+INFO:2024-11-14 13:44:15,754:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-14 13:44:21,294:MainThread:Got exception in place_order as 'orderId'
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull_V2.py", line 138, in order_placement
+    orderid = order["data"]["orderId"]
+KeyError: 'orderId'
+ERROR:2024-11-14 13:44:21,365:MainThread:Got exception in place_order as 'orderId'
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull_V2.py", line 138, in order_placement
+    orderid = order["data"]["orderId"]
+KeyError: 'orderId'
+INFO:2024-11-14 13:45:13,090:MainThread:Dhan.py  started system
+INFO:2024-11-14 13:45:13,090:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-14 13:45:18,684:MainThread:Got exception in place_order as 'orderId'
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull_V2.py", line 138, in order_placement
+    orderid = order["data"]["orderId"]
+KeyError: 'orderId'
+ERROR:2024-11-14 13:45:18,755:MainThread:Got exception in place_order as 'orderId'
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull_V2.py", line 138, in order_placement
+    orderid = order["data"]["orderId"]
+KeyError: 'orderId'
+INFO:2024-11-14 13:47:45,195:MainThread:Dhan.py  started system
+INFO:2024-11-14 13:47:45,195:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-14 13:47:50,825:MainThread:Got exception in place_order as 'orderId'
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull_V2.py", line 138, in order_placement
+    orderid = order["data"]["orderId"]
+KeyError: 'orderId'
+ERROR:2024-11-14 13:47:50,895:MainThread:Got exception in place_order as 'orderId'
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull_V2.py", line 138, in order_placement
+    orderid = order["data"]["orderId"]
+KeyError: 'orderId'
+ERROR:2024-11-14 13:47:55,375:MainThread:Got exception in place_order as 'orderId'
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull_V2.py", line 138, in order_placement
+    orderid = order["data"]["orderId"]
+KeyError: 'orderId'
+ERROR:2024-11-14 13:47:55,445:MainThread:Got exception in place_order as 'orderId'
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull_V2.py", line 138, in order_placement
+    orderid = order["data"]["orderId"]
+KeyError: 'orderId'
+INFO:2024-11-14 13:48:08,064:MainThread:Dhan.py  started system
+INFO:2024-11-14 13:48:08,064:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-14 13:48:13,624:MainThread:Got exception in place_order as 'orderId'
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull_V2.py", line 138, in order_placement
+    orderid = order["data"]["orderId"]
+KeyError: 'orderId'
+ERROR:2024-11-14 13:48:13,704:MainThread:Got exception in place_order as 'orderId'
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull_V2.py", line 138, in order_placement
+    orderid = order["data"]["orderId"]
+KeyError: 'orderId'
+ERROR:2024-11-14 13:48:18,256:MainThread:Got exception in place_order as 'orderId'
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull_V2.py", line 138, in order_placement
+    orderid = order["data"]["orderId"]
+KeyError: 'orderId'
+ERROR:2024-11-14 13:48:18,335:MainThread:Got exception in place_order as 'orderId'
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull_V2.py", line 138, in order_placement
+    orderid = order["data"]["orderId"]
+KeyError: 'orderId'
+INFO:2024-11-14 13:49:18,155:MainThread:Dhan.py  started system
+INFO:2024-11-14 13:49:18,155:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-14 13:49:42,284:MainThread:Got exception in place_order as 'orderId'
+Traceback (most recent call last):
+  File "C:\Users\imran\AppData\Local\Programs\Python\Python38\lib\cmd.py", line 214, in onecmd
+    func = getattr(self, 'do_' + cmd)
+AttributeError: 'Pdb' object has no attribute 'do_tsl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\imran\Desktop\Dhan Lecture Sessions\Session with Dhan Team\9. Session9- 3rd Live Algo Version 2\3rd live Algo\Dhan_Tradehull_V2.py", line 138, in order_placement
+    orderid = order["data"]["orderId"]
+KeyError: 'orderId'
+INFO:2024-11-14 13:51:15,054:MainThread:Dhan.py  started system
+INFO:2024-11-14 13:51:15,054:MainThread:STARTED THE PROGRAM
+INFO:2024-11-14 13:52:47,154:MainThread:Dhan.py  started system
+INFO:2024-11-14 13:52:47,154:MainThread:STARTED THE PROGRAM

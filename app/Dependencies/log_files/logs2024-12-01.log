@@ -1,0 +1,79 @@
+INFO:2024-12-01 22:47:24,048:MainThread:Dhan.py  started system
+INFO:2024-12-01 22:47:24,048:MainThread:STARTED THE PROGRAM
+INFO:2024-12-01 22:50:57,714:MainThread:Dhan.py  started system
+INFO:2024-12-01 22:50:57,714:MainThread:STARTED THE PROGRAM
+INFO:2024-12-01 22:53:08,592:MainThread:Dhan.py  started system
+INFO:2024-12-01 22:53:08,592:MainThread:STARTED THE PROGRAM
+INFO:2024-12-01 22:56:28,210:MainThread:Dhan.py  started system
+INFO:2024-12-01 22:56:28,210:MainThread:STARTED THE PROGRAM
+INFO:2024-12-01 22:57:35,366:MainThread:Dhan.py  started system
+INFO:2024-12-01 22:57:35,366:MainThread:STARTED THE PROGRAM
+INFO:2024-12-01 23:00:13,809:MainThread:Dhan.py  started system
+INFO:2024-12-01 23:00:13,809:MainThread:STARTED THE PROGRAM
+INFO:2024-12-01 23:00:52,975:MainThread:Dhan.py  started system
+INFO:2024-12-01 23:00:52,975:MainThread:STARTED THE PROGRAM
+INFO:2024-12-01 23:13:29,842:MainThread:Dhan.py  started system
+INFO:2024-12-01 23:13:29,842:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-01 23:13:43,062:MainThread:Exception in Getting OHLC data as single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 316, in get_predefined_historical_data
+    security_id 	= instrument_df[((instrument_df['SEM_TRADING_SYMBOL']==tradingsymbol)|(instrument_df['SEM_CUSTOM_SYMBOL']==tradingsymbol))&(instrument_df['SEM_EXM_EXCH_ID']==instrument_exchange[exchange])].iloc[-1]['SEM_SMST_SECURITY_ID']
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1103, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1656, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1589, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+INFO:2024-12-01 23:14:34,757:MainThread:Dhan.py  started system
+INFO:2024-12-01 23:14:34,757:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-01 23:14:47,612:MainThread:Exception in Getting OHLC data as single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 316, in get_predefined_historical_data
+    security_id 	= instrument_df[((instrument_df['SEM_TRADING_SYMBOL']==tradingsymbol)|(instrument_df['SEM_CUSTOM_SYMBOL']==tradingsymbol))&(instrument_df['SEM_EXM_EXCH_ID']==instrument_exchange[exchange])].iloc[-1]['SEM_SMST_SECURITY_ID']
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1103, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1656, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1589, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+INFO:2024-12-01 23:15:34,508:MainThread:Dhan.py  started system
+INFO:2024-12-01 23:15:34,508:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-01 23:15:47,428:MainThread:Exception in Getting OHLC data as single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 316, in get_predefined_historical_data
+    security_id 	= instrument_df[((instrument_df['SEM_TRADING_SYMBOL']==tradingsymbol)|(instrument_df['SEM_CUSTOM_SYMBOL']==tradingsymbol))&(instrument_df['SEM_EXM_EXCH_ID']==instrument_exchange[exchange])].iloc[-1]['SEM_SMST_SECURITY_ID']
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1103, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1656, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1589, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+INFO:2024-12-01 23:17:32,902:MainThread:Dhan.py  started system
+INFO:2024-12-01 23:17:32,902:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-01 23:17:45,491:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 345, in get_predefined_historical_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+INFO:2024-12-01 23:20:41,763:MainThread:Dhan.py  started system
+INFO:2024-12-01 23:20:41,763:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-01 23:20:54,567:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 345, in get_predefined_historical_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+INFO:2024-12-01 23:23:45,461:MainThread:Dhan.py  started system
+INFO:2024-12-01 23:23:45,461:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-01 23:24:08,191:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 345, in get_predefined_historical_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+INFO:2024-12-01 23:24:48,459:MainThread:Dhan.py  started system
+INFO:2024-12-01 23:24:48,459:MainThread:STARTED THE PROGRAM
+INFO:2024-12-01 23:29:14,405:MainThread:Dhan.py  started system
+INFO:2024-12-01 23:29:14,405:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-01 23:29:25,966:MainThread:Exception in dhanhq>>intraday_history_minute_charts: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/historical (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000024157EAD3D0>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)"))

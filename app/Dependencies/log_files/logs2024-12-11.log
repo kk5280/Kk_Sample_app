@@ -1,0 +1,264 @@
+INFO:2024-12-11 09:16:14,660:MainThread:Dhan.py  started system
+INFO:2024-12-11 09:16:14,660:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-11 09:17:44,956:MainThread:Exception in Getting OHLC data as single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 316, in get_predefined_historical_data
+    security_id 	= instrument_df[((instrument_df['SEM_TRADING_SYMBOL']==tradingsymbol)|(instrument_df['SEM_CUSTOM_SYMBOL']==tradingsymbol))&(instrument_df['SEM_EXM_EXCH_ID']==instrument_exchange[exchange])].iloc[-1]['SEM_SMST_SECURITY_ID']
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1103, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1656, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1589, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+INFO:2024-12-11 09:18:34,253:MainThread:Dhan.py  started system
+INFO:2024-12-11 09:18:34,253:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-11 09:19:50,117:MainThread:Exception in Getting OHLC data as single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 316, in get_predefined_historical_data
+    security_id 	= instrument_df[((instrument_df['SEM_TRADING_SYMBOL']==tradingsymbol)|(instrument_df['SEM_CUSTOM_SYMBOL']==tradingsymbol))&(instrument_df['SEM_EXM_EXCH_ID']==instrument_exchange[exchange])].iloc[-1]['SEM_SMST_SECURITY_ID']
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1103, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1656, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1589, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+INFO:2024-12-11 09:22:33,589:MainThread:Dhan.py  started system
+INFO:2024-12-11 09:22:33,589:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-11 09:24:17,432:MainThread:Exception in Getting OHLC data as single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 316, in get_predefined_historical_data
+    security_id 	= instrument_df[((instrument_df['SEM_TRADING_SYMBOL']==tradingsymbol)|(instrument_df['SEM_CUSTOM_SYMBOL']==tradingsymbol))&(instrument_df['SEM_EXM_EXCH_ID']==instrument_exchange[exchange])].iloc[-1]['SEM_SMST_SECURITY_ID']
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1103, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1656, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1589, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+INFO:2024-12-11 09:25:55,113:MainThread:Dhan.py  started system
+INFO:2024-12-11 09:25:55,113:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-11 09:27:42,600:MainThread:Exception in Getting OHLC data as single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 316, in get_predefined_historical_data
+    security_id 	= instrument_df[((instrument_df['SEM_TRADING_SYMBOL']==tradingsymbol)|(instrument_df['SEM_CUSTOM_SYMBOL']==tradingsymbol))&(instrument_df['SEM_EXM_EXCH_ID']==instrument_exchange[exchange])].iloc[-1]['SEM_SMST_SECURITY_ID']
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1103, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1656, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1589, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+INFO:2024-12-11 09:28:25,982:MainThread:Dhan.py  started system
+INFO:2024-12-11 09:28:25,983:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-11 09:30:41,691:MainThread:Exception in Getting OHLC data as single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 316, in get_predefined_historical_data
+    security_id 	= instrument_df[((instrument_df['SEM_TRADING_SYMBOL']==tradingsymbol)|(instrument_df['SEM_CUSTOM_SYMBOL']==tradingsymbol))&(instrument_df['SEM_EXM_EXCH_ID']==instrument_exchange[exchange])].iloc[-1]['SEM_SMST_SECURITY_ID']
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1103, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1656, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1589, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+INFO:2024-12-11 09:31:17,884:MainThread:Dhan.py  started system
+INFO:2024-12-11 09:31:17,884:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-11 09:33:02,758:MainThread:Exception in Getting OHLC data as single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 316, in get_predefined_historical_data
+    security_id 	= instrument_df[((instrument_df['SEM_TRADING_SYMBOL']==tradingsymbol)|(instrument_df['SEM_CUSTOM_SYMBOL']==tradingsymbol))&(instrument_df['SEM_EXM_EXCH_ID']==instrument_exchange[exchange])].iloc[-1]['SEM_SMST_SECURITY_ID']
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1103, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1656, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1589, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+INFO:2024-12-11 09:33:28,815:MainThread:Dhan.py  started system
+INFO:2024-12-11 09:33:28,815:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-11 09:35:11,622:MainThread:Exception in Getting OHLC data as single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 316, in get_predefined_historical_data
+    security_id 	= instrument_df[((instrument_df['SEM_TRADING_SYMBOL']==tradingsymbol)|(instrument_df['SEM_CUSTOM_SYMBOL']==tradingsymbol))&(instrument_df['SEM_EXM_EXCH_ID']==instrument_exchange[exchange])].iloc[-1]['SEM_SMST_SECURITY_ID']
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1103, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1656, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1589, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+INFO:2024-12-11 09:36:00,371:MainThread:Dhan.py  started system
+INFO:2024-12-11 09:36:00,371:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-11 09:37:46,886:MainThread:Exception in Getting OHLC data as single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 316, in get_predefined_historical_data
+    security_id 	= instrument_df[((instrument_df['SEM_TRADING_SYMBOL']==tradingsymbol)|(instrument_df['SEM_CUSTOM_SYMBOL']==tradingsymbol))&(instrument_df['SEM_EXM_EXCH_ID']==instrument_exchange[exchange])].iloc[-1]['SEM_SMST_SECURITY_ID']
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1103, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1656, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1589, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+INFO:2024-12-11 09:38:51,007:MainThread:Dhan.py  started system
+INFO:2024-12-11 09:38:51,007:MainThread:STARTED THE PROGRAM
+INFO:2024-12-11 09:40:16,872:MainThread:Dhan.py  started system
+INFO:2024-12-11 09:40:16,873:MainThread:STARTED THE PROGRAM
+INFO:2024-12-11 09:42:34,118:MainThread:Dhan.py  started system
+INFO:2024-12-11 09:42:34,118:MainThread:STARTED THE PROGRAM
+INFO:2024-12-11 10:21:09,821:MainThread:Dhan.py  started system
+INFO:2024-12-11 10:21:09,821:MainThread:STARTED THE PROGRAM
+INFO:2024-12-11 10:31:12,546:MainThread:Dhan.py  started system
+INFO:2024-12-11 10:31:12,546:MainThread:STARTED THE PROGRAM
+INFO:2024-12-11 10:35:23,083:MainThread:Dhan.py  started system
+INFO:2024-12-11 10:35:23,083:MainThread:STARTED THE PROGRAM
+INFO:2024-12-11 10:39:18,536:MainThread:Dhan.py  started system
+INFO:2024-12-11 10:39:18,536:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-11 10:45:19,463:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 492, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+INFO:2024-12-11 10:53:23,064:MainThread:Dhan.py  started system
+INFO:2024-12-11 10:53:23,064:MainThread:STARTED THE PROGRAM
+INFO:2024-12-11 11:04:08,354:MainThread:Dhan.py  started system
+INFO:2024-12-11 11:04:08,354:MainThread:STARTED THE PROGRAM
+INFO:2024-12-11 11:43:12,820:MainThread:Dhan.py  started system
+INFO:2024-12-11 11:43:12,820:MainThread:STARTED THE PROGRAM
+INFO:2024-12-11 11:49:47,821:MainThread:Dhan.py  started system
+INFO:2024-12-11 11:49:47,821:MainThread:STARTED THE PROGRAM
+INFO:2024-12-11 11:50:42,309:MainThread:Dhan.py  started system
+INFO:2024-12-11 11:50:42,309:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-11 11:50:49,124:MainThread:Exception in Getting OHLC data as single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 316, in get_predefined_historical_data
+    security_id 	= instrument_df[((instrument_df['SEM_TRADING_SYMBOL']==tradingsymbol)|(instrument_df['SEM_CUSTOM_SYMBOL']==tradingsymbol))&(instrument_df['SEM_EXM_EXCH_ID']==instrument_exchange[exchange])].iloc[-1]['SEM_SMST_SECURITY_ID']
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1103, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1656, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1589, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+INFO:2024-12-11 11:51:45,387:MainThread:Dhan.py  started system
+INFO:2024-12-11 11:51:45,388:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-11 11:51:53,828:MainThread:Exception in Getting OHLC data as single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 316, in get_predefined_historical_data
+    security_id 	= instrument_df[((instrument_df['SEM_TRADING_SYMBOL']==tradingsymbol)|(instrument_df['SEM_CUSTOM_SYMBOL']==tradingsymbol))&(instrument_df['SEM_EXM_EXCH_ID']==instrument_exchange[exchange])].iloc[-1]['SEM_SMST_SECURITY_ID']
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1103, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1656, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1589, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+INFO:2024-12-11 12:33:59,649:MainThread:Dhan.py  started system
+INFO:2024-12-11 12:33:59,649:MainThread:STARTED THE PROGRAM
+INFO:2024-12-11 12:47:40,528:MainThread:Dhan.py  started system
+INFO:2024-12-11 12:47:40,528:MainThread:STARTED THE PROGRAM
+INFO:2024-12-11 13:12:04,674:MainThread:Dhan.py  started system
+INFO:2024-12-11 13:12:04,674:MainThread:STARTED THE PROGRAM
+INFO:2024-12-11 13:37:28,048:MainThread:Dhan.py  started system
+INFO:2024-12-11 13:37:28,048:MainThread:STARTED THE PROGRAM
+INFO:2024-12-11 13:57:21,465:MainThread:Dhan.py  started system
+INFO:2024-12-11 13:57:21,465:MainThread:STARTED THE PROGRAM
+INFO:2024-12-11 14:33:45,200:MainThread:Dhan.py  started system
+INFO:2024-12-11 14:33:45,200:MainThread:STARTED THE PROGRAM
+INFO:2024-12-11 21:33:27,166:MainThread:Dhan.py  started system
+INFO:2024-12-11 21:33:27,166:MainThread:STARTED THE PROGRAM
+INFO:2024-12-11 21:44:44,498:MainThread:Dhan.py  started system
+INFO:2024-12-11 21:44:44,498:MainThread:STARTED THE PROGRAM
+INFO:2024-12-11 21:48:39,637:MainThread:Dhan.py  started system
+INFO:2024-12-11 21:48:39,637:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-11 21:48:47,189:MainThread:Exception in Getting OHLC data as single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 316, in get_predefined_historical_data
+    security_id 	= instrument_df[((instrument_df['SEM_TRADING_SYMBOL']==tradingsymbol)|(instrument_df['SEM_CUSTOM_SYMBOL']==tradingsymbol))&(instrument_df['SEM_EXM_EXCH_ID']==instrument_exchange[exchange])].iloc[-1]['SEM_SMST_SECURITY_ID']
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1103, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1656, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1589, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+INFO:2024-12-11 21:52:50,786:MainThread:Dhan.py  started system
+INFO:2024-12-11 21:52:50,786:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-11 21:52:58,380:MainThread:Exception in Getting OHLC data as single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 316, in get_predefined_historical_data
+    security_id 	= instrument_df[((instrument_df['SEM_TRADING_SYMBOL']==tradingsymbol)|(instrument_df['SEM_CUSTOM_SYMBOL']==tradingsymbol))&(instrument_df['SEM_EXM_EXCH_ID']==instrument_exchange[exchange])].iloc[-1]['SEM_SMST_SECURITY_ID']
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1103, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1656, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1589, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+INFO:2024-12-11 22:02:59,783:MainThread:Dhan.py  started system
+INFO:2024-12-11 22:02:59,784:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-11 22:03:07,399:MainThread:Exception in Getting OHLC data as single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 316, in get_predefined_historical_data
+    security_id 	= instrument_df[((instrument_df['SEM_TRADING_SYMBOL']==tradingsymbol)|(instrument_df['SEM_CUSTOM_SYMBOL']==tradingsymbol))&(instrument_df['SEM_EXM_EXCH_ID']==instrument_exchange[exchange])].iloc[-1]['SEM_SMST_SECURITY_ID']
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1103, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1656, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1589, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+INFO:2024-12-11 22:07:46,650:MainThread:Dhan.py  started system
+INFO:2024-12-11 22:07:46,650:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-11 22:07:55,173:MainThread:Exception in Getting OHLC data as single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 316, in get_predefined_historical_data
+    security_id 	= instrument_df[((instrument_df['SEM_TRADING_SYMBOL']==tradingsymbol)|(instrument_df['SEM_CUSTOM_SYMBOL']==tradingsymbol))&(instrument_df['SEM_EXM_EXCH_ID']==instrument_exchange[exchange])].iloc[-1]['SEM_SMST_SECURITY_ID']
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1103, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1656, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1589, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+INFO:2024-12-11 22:17:13,053:MainThread:Dhan.py  started system
+INFO:2024-12-11 22:17:13,053:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-11 22:17:21,958:MainThread:Exception in Getting OHLC data as single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 316, in get_predefined_historical_data
+    security_id 	= instrument_df[((instrument_df['SEM_TRADING_SYMBOL']==tradingsymbol)|(instrument_df['SEM_CUSTOM_SYMBOL']==tradingsymbol))&(instrument_df['SEM_EXM_EXCH_ID']==instrument_exchange[exchange])].iloc[-1]['SEM_SMST_SECURITY_ID']
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1103, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1656, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1589, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+INFO:2024-12-11 22:37:55,052:MainThread:Dhan.py  started system
+INFO:2024-12-11 22:37:55,052:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-11 22:38:02,688:MainThread:Exception in Getting OHLC data as single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 316, in get_predefined_historical_data
+    security_id 	= instrument_df[((instrument_df['SEM_TRADING_SYMBOL']==tradingsymbol)|(instrument_df['SEM_CUSTOM_SYMBOL']==tradingsymbol))&(instrument_df['SEM_EXM_EXCH_ID']==instrument_exchange[exchange])].iloc[-1]['SEM_SMST_SECURITY_ID']
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1103, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1656, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1589, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+INFO:2024-12-11 23:03:44,515:MainThread:Dhan.py  started system
+INFO:2024-12-11 23:03:44,515:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-11 23:03:52,133:MainThread:Exception in Getting OHLC data as single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 316, in get_predefined_historical_data
+    security_id 	= instrument_df[((instrument_df['SEM_TRADING_SYMBOL']==tradingsymbol)|(instrument_df['SEM_CUSTOM_SYMBOL']==tradingsymbol))&(instrument_df['SEM_EXM_EXCH_ID']==instrument_exchange[exchange])].iloc[-1]['SEM_SMST_SECURITY_ID']
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1103, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1656, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1589, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds

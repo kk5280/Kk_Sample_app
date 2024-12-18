@@ -1,0 +1,73 @@
+INFO:2024-11-28 09:03:42,954:MainThread:Dhan.py  started system
+INFO:2024-11-28 09:03:42,954:MainThread:STARTED THE PROGRAM
+INFO:2024-11-28 09:05:07,141:MainThread:Dhan.py  started system
+INFO:2024-11-28 09:05:07,141:MainThread:STARTED THE PROGRAM
+INFO:2024-11-28 09:05:57,191:MainThread:Dhan.py  started system
+INFO:2024-11-28 09:05:57,191:MainThread:STARTED THE PROGRAM
+INFO:2024-11-28 09:15:25,353:MainThread:Dhan.py  started system
+INFO:2024-11-28 09:15:25,353:MainThread:STARTED THE PROGRAM
+INFO:2024-11-28 09:57:35,369:MainThread:Dhan.py  started system
+INFO:2024-11-28 09:57:35,371:MainThread:STARTED THE PROGRAM
+INFO:2024-11-28 10:00:31,973:MainThread:Dhan.py  started system
+INFO:2024-11-28 10:00:31,973:MainThread:STARTED THE PROGRAM
+INFO:2024-11-28 10:00:56,160:MainThread:Dhan.py  started system
+INFO:2024-11-28 10:00:56,160:MainThread:STARTED THE PROGRAM
+INFO:2024-11-28 10:05:06,138:MainThread:Dhan.py  started system
+INFO:2024-11-28 10:05:06,138:MainThread:STARTED THE PROGRAM
+INFO:2024-11-28 19:37:34,997:MainThread:Dhan.py  started system
+INFO:2024-11-28 19:37:34,997:MainThread:STARTED THE PROGRAM
+INFO:2024-11-28 19:39:11,600:MainThread:Dhan.py  started system
+INFO:2024-11-28 19:39:11,600:MainThread:STARTED THE PROGRAM
+INFO:2024-11-28 19:42:08,281:MainThread:Dhan.py  started system
+INFO:2024-11-28 19:42:08,281:MainThread:STARTED THE PROGRAM
+INFO:2024-11-28 19:45:41,893:MainThread:Dhan.py  started system
+INFO:2024-11-28 19:45:41,893:MainThread:STARTED THE PROGRAM
+INFO:2024-11-28 22:39:22,853:MainThread:Dhan.py  started system
+INFO:2024-11-28 22:39:22,854:MainThread:STARTED THE PROGRAM
+INFO:2024-11-28 23:19:22,099:MainThread:Dhan.py  started system
+INFO:2024-11-28 23:19:22,114:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-28 23:19:26,003:MainThread:Exception in Getting OHLC data as interval value must be ['1','5','15','25','60','DAY']
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 269, in get_historical_data
+    raise Exception("interval value must be ['1','5','15','25','60','DAY']")
+Exception: interval value must be ['1','5','15','25','60','DAY']
+INFO:2024-11-28 23:20:17,675:MainThread:Dhan.py  started system
+INFO:2024-11-28 23:20:17,675:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-28 23:20:21,428:MainThread:Exception in Getting OHLC data as interval value must be ['1','5','15','25','60','DAY']
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 269, in get_historical_data
+    raise Exception("interval value must be ['1','5','15','25','60','DAY']")
+Exception: interval value must be ['1','5','15','25','60','DAY']
+INFO:2024-11-28 23:22:57,746:MainThread:Dhan.py  started system
+INFO:2024-11-28 23:22:57,748:MainThread:STARTED THE PROGRAM
+INFO:2024-11-28 23:24:39,806:MainThread:Dhan.py  started system
+INFO:2024-11-28 23:24:39,806:MainThread:STARTED THE PROGRAM
+INFO:2024-11-28 23:26:07,596:MainThread:Dhan.py  started system
+INFO:2024-11-28 23:26:07,596:MainThread:STARTED THE PROGRAM
+INFO:2024-11-28 23:29:04,380:MainThread:Dhan.py  started system
+INFO:2024-11-28 23:29:04,380:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-28 23:29:07,578:MainThread:Exception for instrument name NIFTY 50 as single positional indexer is out-of-bounds
+ERROR:2024-11-28 23:29:08,340:MainThread:Exception in Getting OHLC data as single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 260, in get_historical_data
+    security_id 	= instrument_df[((instrument_df['SEM_TRADING_SYMBOL']==tradingsymbol)|(instrument_df['SEM_CUSTOM_SYMBOL']==tradingsymbol))&(instrument_df['SEM_EXM_EXCH_ID']==instrument_exchange[exchange])].iloc[-1]['SEM_SMST_SECURITY_ID']
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1103, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1656, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1589, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+INFO:2024-11-28 23:29:22,989:MainThread:Dhan.py  started system
+INFO:2024-11-28 23:29:22,989:MainThread:STARTED THE PROGRAM
+INFO:2024-11-28 23:30:52,141:MainThread:Dhan.py  started system
+INFO:2024-11-28 23:30:52,141:MainThread:STARTED THE PROGRAM
+INFO:2024-11-28 23:41:18,987:MainThread:Dhan.py  started system
+INFO:2024-11-28 23:41:18,987:MainThread:STARTED THE PROGRAM
+INFO:2024-11-28 23:56:23,357:MainThread:Dhan.py  started system
+INFO:2024-11-28 23:56:23,361:MainThread:STARTED THE PROGRAM
+ERROR:2024-11-28 23:56:27,727:MainThread:Exception in Getting OHLC data as '5'
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 328, in get_intraday_data
+    df = self.resample_timeframe(df,available_frames[timeframe])
+KeyError: '5'

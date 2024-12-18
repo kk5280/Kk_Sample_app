@@ -1,0 +1,65 @@
+INFO:2024-12-07 00:05:39,036:MainThread:Dhan.py  started system
+INFO:2024-12-07 00:05:39,036:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-07 00:05:46,346:MainThread:got exception in get_login as Error tokenizing data. C error: Calling read(nbytes) on source failed. Try engine='python'. 
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 83, in get_login
+    self.instrument_df 									= self.get_instrument_file()
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 114, in get_instrument_file
+    instrument_df = pd.read_csv("https://images.dhan.co/api-data/api-scrip-master.csv", low_memory=False)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\io\parsers\readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\io\parsers\readers.py", line 583, in _read
+    return parser.read(nrows)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\io\parsers\readers.py", line 1704, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 239, in read
+    data = self._reader.read(nrows)
+  File "pandas\_libs\parsers.pyx", line 796, in pandas._libs.parsers.TextReader.read
+  File "pandas\_libs\parsers.pyx", line 884, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas\_libs\parsers.pyx", line 861, in pandas._libs.parsers.TextReader._check_tokenize_status
+  File "pandas\_libs\parsers.pyx", line 2029, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Calling read(nbytes) on source failed. Try engine='python'.
+ERROR:2024-12-07 00:05:47,391:MainThread:Exception in Getting OHLC data as 'Tradehull' object has no attribute 'instrument_df'
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 305, in get_predefined_historical_data
+    instrument_df = self.instrument_df.copy()
+AttributeError: 'Tradehull' object has no attribute 'instrument_df'
+INFO:2024-12-07 00:05:59,369:MainThread:Dhan.py  started system
+INFO:2024-12-07 00:05:59,369:MainThread:STARTED THE PROGRAM
+INFO:2024-12-07 00:14:00,222:MainThread:Dhan.py  started system
+INFO:2024-12-07 00:14:00,223:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-07 00:14:11,895:MainThread:Exception in dhanhq>>intraday_history_minute_charts: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/historical (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000296EEA44610>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)"))
+ERROR:2024-12-07 00:14:13,228:MainThread:Exception in dhanhq>>intraday_history_minute_charts: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/historical (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000296E8624520>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)"))
+ERROR:2024-12-07 00:14:13,229:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': 'HTTPSConnectionPool(host=\'api.dhan.co\', port=443): Max retries exceeded with url: /v2/charts/historical (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000296E8624520>: Failed to resolve \'api.dhan.co\' ([Errno 11001] getaddrinfo failed)"))', 'data': ''}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 345, in get_predefined_historical_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': 'HTTPSConnectionPool(host=\'api.dhan.co\', port=443): Max retries exceeded with url: /v2/charts/historical (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000296E8624520>: Failed to resolve \'api.dhan.co\' ([Errno 11001] getaddrinfo failed)"))', 'data': ''}
+INFO:2024-12-07 00:14:56,720:MainThread:Dhan.py  started system
+INFO:2024-12-07 00:14:56,720:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-07 00:21:31,343:MainThread:Exception in dhanhq>>intraday_minute_data: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+ERROR:2024-12-07 00:21:31,343:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))", 'data': ''}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 345, in get_predefined_historical_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))", 'data': ''}
+INFO:2024-12-07 00:23:35,502:MainThread:Dhan.py  started system
+INFO:2024-12-07 00:23:35,502:MainThread:STARTED THE PROGRAM
+INFO:2024-12-07 23:24:58,967:MainThread:Dhan.py  started system
+INFO:2024-12-07 23:24:58,967:MainThread:STARTED THE PROGRAM
+INFO:2024-12-07 23:27:43,523:MainThread:Dhan.py  started system
+INFO:2024-12-07 23:27:43,523:MainThread:STARTED THE PROGRAM
+INFO:2024-12-07 23:39:13,429:MainThread:Dhan.py  started system
+INFO:2024-12-07 23:39:13,429:MainThread:STARTED THE PROGRAM
+INFO:2024-12-07 23:42:33,907:MainThread:Dhan.py  started system
+INFO:2024-12-07 23:42:33,907:MainThread:STARTED THE PROGRAM
+INFO:2024-12-07 23:44:05,303:MainThread:Dhan.py  started system
+INFO:2024-12-07 23:44:05,303:MainThread:STARTED THE PROGRAM
+INFO:2024-12-07 23:51:51,282:MainThread:Dhan.py  started system
+INFO:2024-12-07 23:51:51,282:MainThread:STARTED THE PROGRAM
+INFO:2024-12-07 23:53:01,310:MainThread:Dhan.py  started system
+INFO:2024-12-07 23:53:01,310:MainThread:STARTED THE PROGRAM
+INFO:2024-12-07 23:55:05,469:MainThread:Dhan.py  started system
+INFO:2024-12-07 23:55:05,469:MainThread:STARTED THE PROGRAM
+INFO:2024-12-07 23:56:26,206:MainThread:Dhan.py  started system
+INFO:2024-12-07 23:56:26,206:MainThread:STARTED THE PROGRAM

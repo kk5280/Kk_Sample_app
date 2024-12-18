@@ -1,0 +1,80 @@
+INFO:2024-12-05 00:05:17,060:MainThread:Dhan.py  started system
+INFO:2024-12-05 00:05:17,060:MainThread:STARTED THE PROGRAM
+INFO:2024-12-05 00:09:36,717:MainThread:Dhan.py  started system
+INFO:2024-12-05 00:09:36,717:MainThread:STARTED THE PROGRAM
+INFO:2024-12-05 00:13:22,571:MainThread:Dhan.py  started system
+INFO:2024-12-05 00:13:22,571:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-05 00:16:12,097:MainThread:Exception in dhanhq>>intraday_history_minute_charts: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+ERROR:2024-12-05 00:16:12,098:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))", 'data': ''}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 345, in get_predefined_historical_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))", 'data': ''}
+INFO:2024-12-05 00:18:34,788:MainThread:Dhan.py  started system
+INFO:2024-12-05 00:18:34,788:MainThread:STARTED THE PROGRAM
+INFO:2024-12-05 00:25:54,049:MainThread:Dhan.py  started system
+INFO:2024-12-05 00:25:54,049:MainThread:STARTED THE PROGRAM
+INFO:2024-12-05 00:35:14,350:MainThread:Dhan.py  started system
+INFO:2024-12-05 00:35:14,350:MainThread:STARTED THE PROGRAM
+INFO:2024-12-05 00:45:02,370:MainThread:Dhan.py  started system
+INFO:2024-12-05 00:45:02,370:MainThread:STARTED THE PROGRAM
+INFO:2024-12-05 00:52:44,298:MainThread:Dhan.py  started system
+INFO:2024-12-05 00:52:44,298:MainThread:STARTED THE PROGRAM
+INFO:2024-12-05 00:55:09,864:MainThread:Dhan.py  started system
+INFO:2024-12-05 00:55:09,864:MainThread:STARTED THE PROGRAM
+INFO:2024-12-05 01:03:35,128:MainThread:Dhan.py  started system
+INFO:2024-12-05 01:03:35,128:MainThread:STARTED THE PROGRAM
+INFO:2024-12-05 01:17:14,564:MainThread:Dhan.py  started system
+INFO:2024-12-05 01:17:14,564:MainThread:STARTED THE PROGRAM
+INFO:2024-12-05 01:23:54,310:MainThread:Dhan.py  started system
+INFO:2024-12-05 01:23:54,310:MainThread:STARTED THE PROGRAM
+INFO:2024-12-05 15:09:47,392:MainThread:Dhan.py  started system
+INFO:2024-12-05 15:09:47,408:MainThread:STARTED THE PROGRAM
+INFO:2024-12-05 15:15:35,250:MainThread:Dhan.py  started system
+INFO:2024-12-05 15:15:35,250:MainThread:STARTED THE PROGRAM
+INFO:2024-12-05 15:21:30,480:MainThread:Dhan.py  started system
+INFO:2024-12-05 15:21:30,480:MainThread:STARTED THE PROGRAM
+INFO:2024-12-05 15:31:37,256:MainThread:Dhan.py  started system
+INFO:2024-12-05 15:31:37,256:MainThread:STARTED THE PROGRAM
+INFO:2024-12-05 15:41:52,945:MainThread:Dhan.py  started system
+INFO:2024-12-05 15:41:52,945:MainThread:STARTED THE PROGRAM
+INFO:2024-12-05 15:54:48,041:MainThread:Dhan.py  started system
+INFO:2024-12-05 15:54:48,041:MainThread:STARTED THE PROGRAM
+INFO:2024-12-05 16:02:17,318:MainThread:Dhan.py  started system
+INFO:2024-12-05 16:02:17,318:MainThread:STARTED THE PROGRAM
+INFO:2024-12-05 16:16:08,809:MainThread:Dhan.py  started system
+INFO:2024-12-05 16:16:08,809:MainThread:STARTED THE PROGRAM
+INFO:2024-12-05 16:22:56,431:MainThread:Dhan.py  started system
+INFO:2024-12-05 16:22:56,431:MainThread:STARTED THE PROGRAM
+INFO:2024-12-05 16:37:32,719:MainThread:Dhan.py  started system
+INFO:2024-12-05 16:37:32,720:MainThread:STARTED THE PROGRAM
+INFO:2024-12-05 16:38:25,314:MainThread:Dhan.py  started system
+INFO:2024-12-05 16:38:25,314:MainThread:STARTED THE PROGRAM
+INFO:2024-12-05 16:42:08,638:MainThread:Dhan.py  started system
+INFO:2024-12-05 16:42:08,638:MainThread:STARTED THE PROGRAM
+INFO:2024-12-05 17:11:49,766:MainThread:Dhan.py  started system
+INFO:2024-12-05 17:11:49,766:MainThread:STARTED THE PROGRAM
+INFO:2024-12-05 17:20:05,871:MainThread:Dhan.py  started system
+INFO:2024-12-05 17:20:05,871:MainThread:STARTED THE PROGRAM
+INFO:2024-12-05 17:34:16,026:MainThread:Dhan.py  started system
+INFO:2024-12-05 17:34:16,026:MainThread:STARTED THE PROGRAM
+INFO:2024-12-05 22:28:23,470:MainThread:Dhan.py  started system
+INFO:2024-12-05 22:28:23,485:MainThread:STARTED THE PROGRAM
+INFO:2024-12-05 22:38:45,182:MainThread:Dhan.py  started system
+INFO:2024-12-05 22:38:45,182:MainThread:STARTED THE PROGRAM
+INFO:2024-12-05 22:45:05,182:MainThread:Dhan.py  started system
+INFO:2024-12-05 22:45:05,182:MainThread:STARTED THE PROGRAM
+INFO:2024-12-05 22:54:21,593:MainThread:Dhan.py  started system
+INFO:2024-12-05 22:54:21,593:MainThread:STARTED THE PROGRAM
+INFO:2024-12-05 23:08:28,167:MainThread:Dhan.py  started system
+INFO:2024-12-05 23:08:28,167:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-05 23:09:08,180:MainThread:Exception in dhanhq>>intraday_history_minute_charts: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+ERROR:2024-12-05 23:09:08,181:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))", 'data': ''}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 345, in get_predefined_historical_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))", 'data': ''}
+INFO:2024-12-05 23:13:16,696:MainThread:Dhan.py  started system
+INFO:2024-12-05 23:13:16,696:MainThread:STARTED THE PROGRAM
+INFO:2024-12-05 23:29:10,583:MainThread:Dhan.py  started system
+INFO:2024-12-05 23:29:10,583:MainThread:STARTED THE PROGRAM

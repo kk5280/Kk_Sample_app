@@ -1,0 +1,175 @@
+INFO:2024-12-02 00:02:15,419:MainThread:Dhan.py  started system
+INFO:2024-12-02 00:02:15,419:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 00:03:52,800:MainThread:Dhan.py  started system
+INFO:2024-12-02 00:03:52,800:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 01:16:33,183:MainThread:Dhan.py  started system
+INFO:2024-12-02 01:16:33,183:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 01:17:32,125:MainThread:Dhan.py  started system
+INFO:2024-12-02 01:17:32,125:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 01:20:20,523:MainThread:Dhan.py  started system
+INFO:2024-12-02 01:20:20,523:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 01:20:37,680:MainThread:Dhan.py  started system
+INFO:2024-12-02 01:20:37,680:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 01:21:15,593:MainThread:Dhan.py  started system
+INFO:2024-12-02 01:21:15,593:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 01:22:01,178:MainThread:Dhan.py  started system
+INFO:2024-12-02 01:22:01,178:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 01:27:31,928:MainThread:Dhan.py  started system
+INFO:2024-12-02 01:27:31,928:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 08:17:22,464:MainThread:Dhan.py  started system
+INFO:2024-12-02 08:17:22,464:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 08:18:29,363:MainThread:Dhan.py  started system
+INFO:2024-12-02 08:18:29,363:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 09:16:39,901:MainThread:Dhan.py  started system
+INFO:2024-12-02 09:16:39,901:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 09:16:49,819:MainThread:Dhan.py  started system
+INFO:2024-12-02 09:16:49,819:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 09:40:07,396:MainThread:Dhan.py  started system
+INFO:2024-12-02 09:40:07,396:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 09:40:11,312:MainThread:Dhan.py  started system
+INFO:2024-12-02 09:40:11,312:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 09:45:27,030:MainThread:Dhan.py  started system
+INFO:2024-12-02 09:45:27,030:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 09:52:08,947:MainThread:Dhan.py  started system
+INFO:2024-12-02 09:52:08,947:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 09:57:54,097:MainThread:Dhan.py  started system
+INFO:2024-12-02 09:57:54,097:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 10:07:30,260:MainThread:Dhan.py  started system
+INFO:2024-12-02 10:07:30,260:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 10:21:06,571:MainThread:Dhan.py  started system
+INFO:2024-12-02 10:21:06,571:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 10:28:37,471:MainThread:Dhan.py  started system
+INFO:2024-12-02 10:28:37,471:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 10:32:08,604:MainThread:Dhan.py  started system
+INFO:2024-12-02 10:32:08,604:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 10:33:59,379:MainThread:Dhan.py  started system
+INFO:2024-12-02 10:33:59,379:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 10:35:48,184:MainThread:Dhan.py  started system
+INFO:2024-12-02 10:35:48,184:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 10:39:28,550:MainThread:Dhan.py  started system
+INFO:2024-12-02 10:39:28,550:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 10:42:31,563:MainThread:Dhan.py  started system
+INFO:2024-12-02 10:42:31,563:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 10:43:40,601:MainThread:Dhan.py  started system
+INFO:2024-12-02 10:43:40,601:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 10:44:30,664:MainThread:Dhan.py  started system
+INFO:2024-12-02 10:44:30,664:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 10:52:32,086:MainThread:Dhan.py  started system
+INFO:2024-12-02 10:52:32,086:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 11:49:33,993:MainThread:Dhan.py  started system
+INFO:2024-12-02 11:49:33,993:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 11:55:31,085:MainThread:Dhan.py  started system
+INFO:2024-12-02 11:55:31,085:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 11:56:54,687:MainThread:Dhan.py  started system
+INFO:2024-12-02 11:56:54,687:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 12:33:43,086:MainThread:Dhan.py  started system
+INFO:2024-12-02 12:33:43,086:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-02 12:33:44,729:MainThread:Exception in dhanhq>>place_order: '>' not supported between instances of 'str' and 'int'
+ERROR:2024-12-02 12:33:44,729:MainThread:Got exception in place_order as string indices must be integers
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 140, in order_placement
+    orderid = order["data"]["orderId"]
+TypeError: string indices must be integers
+INFO:2024-12-02 12:34:40,202:MainThread:Dhan.py  started system
+INFO:2024-12-02 12:34:40,202:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-02 12:34:51,923:MainThread:Exception in dhanhq>>intraday_history_minute_charts: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/historical (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000025970C7C400>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)"))
+INFO:2024-12-02 12:37:23,848:MainThread:Dhan.py  started system
+INFO:2024-12-02 12:37:23,848:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 12:40:03,913:MainThread:Dhan.py  started system
+INFO:2024-12-02 12:40:03,913:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 12:40:32,230:MainThread:Dhan.py  started system
+INFO:2024-12-02 12:40:32,230:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 12:40:51,314:MainThread:Dhan.py  started system
+INFO:2024-12-02 12:40:51,314:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 12:41:34,181:MainThread:Dhan.py  started system
+INFO:2024-12-02 12:41:34,181:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 12:56:57,015:MainThread:Dhan.py  started system
+INFO:2024-12-02 12:56:57,015:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-02 12:57:02,086:MainThread:Exception at calling ltp as {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 492, in get_ltp_data
+    raise Exception(data)
+Exception: {'status': 'failure', 'remarks': {'error_code': None, 'error_type': None, 'error_message': None}, 'data': {'data': {'805': 'Too many requests. Further requests may result in the user being blocked.'}, 'status': 'failed'}}
+INFO:2024-12-02 13:02:16,482:MainThread:Dhan.py  started system
+INFO:2024-12-02 13:02:16,482:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 14:49:00,400:MainThread:Dhan.py  started system
+INFO:2024-12-02 14:49:00,400:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-02 14:49:08,041:MainThread:Got exception in place_order as 'orderId'
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 140, in order_placement
+    orderid = order["data"]["orderId"]
+KeyError: 'orderId'
+INFO:2024-12-02 14:50:51,135:MainThread:Dhan.py  started system
+INFO:2024-12-02 14:50:51,135:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 15:17:44,428:MainThread:Dhan.py  started system
+INFO:2024-12-02 15:17:44,429:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 16:43:21,618:MainThread:Dhan.py  started system
+INFO:2024-12-02 16:43:21,618:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 16:48:25,387:MainThread:Dhan.py  started system
+INFO:2024-12-02 16:48:25,387:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 16:49:07,895:MainThread:Dhan.py  started system
+INFO:2024-12-02 16:49:07,895:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-02 16:56:03,128:MainThread:Exception for instrument name None as single positional indexer is out-of-bounds
+INFO:2024-12-02 17:06:27,669:MainThread:Dhan.py  started system
+INFO:2024-12-02 17:06:27,669:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 17:26:39,116:MainThread:Dhan.py  started system
+INFO:2024-12-02 17:26:39,116:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 17:38:04,982:MainThread:Dhan.py  started system
+INFO:2024-12-02 17:38:04,984:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-02 17:38:10,254:MainThread:Exception for instrument name None as single positional indexer is out-of-bounds
+INFO:2024-12-02 17:42:28,590:MainThread:Dhan.py  started system
+INFO:2024-12-02 17:42:28,590:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-02 17:42:33,224:MainThread:Exception for instrument name None as single positional indexer is out-of-bounds
+INFO:2024-12-02 17:46:02,401:MainThread:Dhan.py  started system
+INFO:2024-12-02 17:46:02,401:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 17:47:33,407:MainThread:Dhan.py  started system
+INFO:2024-12-02 17:47:33,407:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 17:48:23,062:MainThread:Dhan.py  started system
+INFO:2024-12-02 17:48:23,062:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 21:45:22,161:MainThread:Dhan.py  started system
+INFO:2024-12-02 21:45:22,162:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 21:47:09,998:MainThread:Dhan.py  started system
+INFO:2024-12-02 21:47:09,999:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 21:48:31,697:MainThread:Dhan.py  started system
+INFO:2024-12-02 21:48:31,697:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 21:48:59,100:MainThread:Dhan.py  started system
+INFO:2024-12-02 21:48:59,100:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 21:49:27,835:MainThread:Dhan.py  started system
+INFO:2024-12-02 21:49:27,836:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 21:50:11,618:MainThread:Dhan.py  started system
+INFO:2024-12-02 21:50:11,619:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 22:32:50,131:MainThread:Dhan.py  started system
+INFO:2024-12-02 22:32:50,131:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 22:34:37,357:MainThread:Dhan.py  started system
+INFO:2024-12-02 22:34:37,357:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 22:40:18,236:MainThread:Dhan.py  started system
+INFO:2024-12-02 22:40:18,237:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 22:46:21,562:MainThread:Dhan.py  started system
+INFO:2024-12-02 22:46:21,562:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 22:47:02,885:MainThread:Dhan.py  started system
+INFO:2024-12-02 22:47:02,885:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 22:50:19,356:MainThread:Dhan.py  started system
+INFO:2024-12-02 22:50:19,356:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 22:57:19,361:MainThread:Dhan.py  started system
+INFO:2024-12-02 22:57:19,361:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 22:57:52,848:MainThread:Dhan.py  started system
+INFO:2024-12-02 22:57:52,848:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 23:05:30,661:MainThread:Dhan.py  started system
+INFO:2024-12-02 23:05:30,661:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 23:05:51,937:MainThread:Dhan.py  started system
+INFO:2024-12-02 23:05:51,937:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 23:09:04,800:MainThread:Dhan.py  started system
+INFO:2024-12-02 23:09:04,800:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 23:12:47,718:MainThread:Dhan.py  started system
+INFO:2024-12-02 23:12:47,718:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 23:15:56,481:MainThread:Dhan.py  started system
+INFO:2024-12-02 23:15:56,484:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-02 23:17:01,485:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': {'error_code': 'DH-905', 'error_type': 'Input_Exception', 'error_message': 'Missing required fields, bad values for parameters etc.'}, 'data': {'errorType': 'Input_Exception', 'errorCode': 'DH-905', 'errorMessage': 'Missing required fields, bad values for parameters etc.'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 345, in get_predefined_historical_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': {'error_code': 'DH-905', 'error_type': 'Input_Exception', 'error_message': 'Missing required fields, bad values for parameters etc.'}, 'data': {'errorType': 'Input_Exception', 'errorCode': 'DH-905', 'errorMessage': 'Missing required fields, bad values for parameters etc.'}}
+INFO:2024-12-02 23:22:47,285:MainThread:Dhan.py  started system
+INFO:2024-12-02 23:22:47,287:MainThread:STARTED THE PROGRAM
+INFO:2024-12-02 23:32:44,135:MainThread:Dhan.py  started system
+INFO:2024-12-02 23:32:44,135:MainThread:STARTED THE PROGRAM

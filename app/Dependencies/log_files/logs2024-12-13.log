@@ -1,0 +1,112 @@
+INFO:2024-12-13 09:17:17,062:MainThread:Dhan.py  started system
+INFO:2024-12-13 09:17:17,062:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-13 09:17:37,267:MainThread:Exception in Getting OHLC data as single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 316, in get_predefined_historical_data
+    security_id 	= instrument_df[((instrument_df['SEM_TRADING_SYMBOL']==tradingsymbol)|(instrument_df['SEM_CUSTOM_SYMBOL']==tradingsymbol))&(instrument_df['SEM_EXM_EXCH_ID']==instrument_exchange[exchange])].iloc[-1]['SEM_SMST_SECURITY_ID']
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1103, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1656, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Users\krish\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexing.py", line 1589, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+INFO:2024-12-13 09:21:48,492:MainThread:Dhan.py  started system
+INFO:2024-12-13 09:21:48,492:MainThread:STARTED THE PROGRAM
+INFO:2024-12-13 09:32:56,262:MainThread:Dhan.py  started system
+INFO:2024-12-13 09:32:56,262:MainThread:STARTED THE PROGRAM
+INFO:2024-12-13 10:36:36,974:MainThread:Dhan.py  started system
+INFO:2024-12-13 10:36:36,974:MainThread:STARTED THE PROGRAM
+INFO:2024-12-13 10:38:17,090:MainThread:Dhan.py  started system
+INFO:2024-12-13 10:38:17,090:MainThread:STARTED THE PROGRAM
+INFO:2024-12-13 10:40:41,022:MainThread:Dhan.py  started system
+INFO:2024-12-13 10:40:41,022:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-13 10:40:52,978:MainThread:Exception in dhanhq>>intraday_history_minute_charts: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /v2/charts/historical (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000203D16EA430>: Failed to resolve 'api.dhan.co' ([Errno 11001] getaddrinfo failed)"))
+INFO:2024-12-13 10:44:31,406:MainThread:Dhan.py  started system
+INFO:2024-12-13 10:44:31,406:MainThread:STARTED THE PROGRAM
+INFO:2024-12-13 10:49:53,034:MainThread:Dhan.py  started system
+INFO:2024-12-13 10:49:53,034:MainThread:STARTED THE PROGRAM
+INFO:2024-12-13 10:53:26,992:MainThread:Dhan.py  started system
+INFO:2024-12-13 10:53:26,992:MainThread:STARTED THE PROGRAM
+INFO:2024-12-13 10:56:55,631:MainThread:Dhan.py  started system
+INFO:2024-12-13 10:56:55,631:MainThread:STARTED THE PROGRAM
+INFO:2024-12-13 11:00:09,020:MainThread:Dhan.py  started system
+INFO:2024-12-13 11:00:09,020:MainThread:STARTED THE PROGRAM
+INFO:2024-12-13 11:02:38,645:MainThread:Dhan.py  started system
+INFO:2024-12-13 11:02:38,645:MainThread:STARTED THE PROGRAM
+INFO:2024-12-13 11:31:50,327:MainThread:Dhan.py  started system
+INFO:2024-12-13 11:31:50,327:MainThread:STARTED THE PROGRAM
+INFO:2024-12-13 11:33:24,550:MainThread:Dhan.py  started system
+INFO:2024-12-13 11:33:24,550:MainThread:STARTED THE PROGRAM
+INFO:2024-12-13 11:34:25,557:MainThread:Dhan.py  started system
+INFO:2024-12-13 11:34:25,557:MainThread:STARTED THE PROGRAM
+INFO:2024-12-13 11:42:44,701:MainThread:Dhan.py  started system
+INFO:2024-12-13 11:42:44,701:MainThread:STARTED THE PROGRAM
+INFO:2024-12-13 11:43:56,428:MainThread:Dhan.py  started system
+INFO:2024-12-13 11:43:56,429:MainThread:STARTED THE PROGRAM
+INFO:2024-12-13 11:45:07,684:MainThread:Dhan.py  started system
+INFO:2024-12-13 11:45:07,684:MainThread:STARTED THE PROGRAM
+INFO:2024-12-13 11:49:54,174:MainThread:Dhan.py  started system
+INFO:2024-12-13 11:49:54,174:MainThread:STARTED THE PROGRAM
+INFO:2024-12-13 11:55:34,372:MainThread:Dhan.py  started system
+INFO:2024-12-13 11:55:34,372:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-13 12:04:10,207:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 345, in get_predefined_historical_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+ERROR:2024-12-13 12:17:35,551:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 345, in get_predefined_historical_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+ERROR:2024-12-13 12:32:33,165:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 345, in get_predefined_historical_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+ERROR:2024-12-13 12:47:13,680:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 345, in get_predefined_historical_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+ERROR:2024-12-13 13:01:59,154:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 345, in get_predefined_historical_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+ERROR:2024-12-13 13:16:48,379:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 345, in get_predefined_historical_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+ERROR:2024-12-13 13:31:47,833:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 345, in get_predefined_historical_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+ERROR:2024-12-13 13:46:49,675:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 345, in get_predefined_historical_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+INFO:2024-12-13 13:55:08,872:MainThread:Dhan.py  started system
+INFO:2024-12-13 13:55:08,873:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-13 14:01:42,646:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 345, in get_predefined_historical_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+INFO:2024-12-13 14:05:51,090:MainThread:Dhan.py  started system
+INFO:2024-12-13 14:05:51,092:MainThread:STARTED THE PROGRAM
+ERROR:2024-12-13 14:16:43,553:MainThread:Exception in Getting OHLC data as {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+Traceback (most recent call last):
+  File "C:\KK\Dhan_Algo\My_Algo\Algo\Dhan_Tradehull_V2.py", line 345, in get_predefined_historical_data
+    raise Exception(ohlc)
+Exception: {'status': 'failure', 'remarks': {'error_code': 'DH-907', 'error_type': 'Data_Error', 'error_message': 'System is unable to fetch data due to incorrect parameters or no data present'}, 'data': {'errorType': 'Data_Error', 'errorCode': 'DH-907', 'errorMessage': 'System is unable to fetch data due to incorrect parameters or no data present'}}
+INFO:2024-12-13 15:58:02,323:MainThread:Dhan.py  started system
+INFO:2024-12-13 15:58:02,328:MainThread:STARTED THE PROGRAM
+INFO:2024-12-13 16:04:55,914:MainThread:Dhan.py  started system
+INFO:2024-12-13 16:04:55,915:MainThread:STARTED THE PROGRAM
+INFO:2024-12-13 18:25:18,036:MainThread:Dhan.py  started system
+INFO:2024-12-13 18:25:18,036:MainThread:STARTED THE PROGRAM
